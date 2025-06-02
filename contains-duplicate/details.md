@@ -15,6 +15,7 @@ Array, Hash Table
 The brute force solution runs in O(n^2)/polynomial time, we could probably do better...
 
 ### Idea:
+By definition of consecutive sequence, for all starting sequence numbers n, n-1 is not in values
 ```python
 # keep track of a set of values (or hashtable if indices are returned)
 # iterate through each item
