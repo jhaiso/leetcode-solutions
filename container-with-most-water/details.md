@@ -10,4 +10,5 @@ Space Complexity: O(1)
 
 ### Two Pointers
 We observe that the container has two sides, and the area is only dependent on the smaller one. Start at both sides of the array. It doesn't make sense to move the larger one, since no matter what the height of the next container wall is, the area will get smaller. So, we move the smaller one closer until the pointers cross (greedy choice property!!)!
-
+Time Complexity: O(n) - yayyyy two pointers!!
+Space Complexity: O(1)
