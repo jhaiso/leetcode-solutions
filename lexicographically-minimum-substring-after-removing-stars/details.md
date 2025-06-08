@@ -1,4 +1,4 @@
-# 3170. Lexographically Minimum Substring After Removing Stars
+# 3170. Lexicographically Minimum Substring After Removing Stars
 
 ## Relevant Topics
 
