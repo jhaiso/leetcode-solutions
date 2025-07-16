@@ -3,7 +3,7 @@
 Array, Enumeration
 
 ## Solution Thought Process
-We see that based on the conditions, we are looking for the longest subsequence of elements such that the difference between each adjacent one is either strictly ODD or EVEN. Therefore, by definition, all elements at even indices have the same parity, and all elements at odd indices have the same parity. We can enumerate these possibilities.
+We see that based on the conditions, we are looking for the longest subsequence of elements such that the difference between each adjacent one is either strictly ODD or EVEN. Therefore, we see that we can count the evens, odds, and elements where the previous element is a different parity than the current one.
 
 Time Complexity: O(n)
 Space Complexity: O(1)
